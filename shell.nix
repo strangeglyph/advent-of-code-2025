@@ -15,7 +15,6 @@ pkgs.mkShell {
 
   buildInputs = with pkgs; [
     rust-analyzer
-    jetbrains.rust-rover
     cargo
   ];
 
