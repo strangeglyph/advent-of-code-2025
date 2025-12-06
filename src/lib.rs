@@ -1,4 +1,5 @@
 pub mod algebra;
+pub mod combinatorics;
 
 pub mod harness {
     use std::fmt::Display;
