@@ -43,7 +43,7 @@ pub mod algebra {
     zero_one!(f64);
 
     pub struct Matrix<const WIDTH: usize, const HEIGHT: usize, T> {
-        rows: [[T; WIDTH]; HEIGHT],
+        pub rows: [[T; WIDTH]; HEIGHT],
     }
 
     impl<const WIDTH: usize, const HEIGHT: usize, T> Matrix<WIDTH, HEIGHT, T> {
